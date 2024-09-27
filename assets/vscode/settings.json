@@ -1,0 +1,268 @@
+{
+  "workbench.colorTheme": "Horizon Dark",
+  "workbench.iconTheme": "helium-icon-theme",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono,Fira Code,Menlo, Monaco, 'Courier New', monospace, Iosevka",
+  "editor.fontSize": 13,
+  // "editor.lineHeight": 19,
+  "editor.letterSpacing": 0.1,
+  "editor.fontWeight": "300",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
+
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 16,
+      "y": 16
+    },
+    "backgroundColor": "#000000ff",
+    "vibrancy": "fullscreen-ui"
+  },
+  "apc.activityBar": {
+    "size": 32,
+    "position": "bottom"
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 32,
+    "fontSize": 10
+  },
+  "workbench.colorCustomizations": {
+    // "statusBar.border": "#6c6f9380",
+    // "activityBar.border": "#6c6f9380"
+    // "statusBar.border": "#e95378",
+    // "activityBar.border": "#e95378"
+  },
+  // "apc.menubar.compact": true,
+  "apc.font.family": "JetBrains Mono",
+  "apc.stylesheet": {
+    // Insect titlebar
+    ".inline-titlebar-placeholder": "padding-right: 8px;",
+    ".statusbar #status\\.host": "display: block; !important; width: calc(var(--activity-bar-action-size)px); height: 18px; margin-left: 6px; margin-top: 7px; border-radius: 30px",
+    // More round borders!
+    ".monaco-dialog-modal-block": "border-radius:8px;",
+    ".monaco-text-button": "border-radius:8px;",
+    ".monaco-inputbox": "border-radius:8px",
+    ".suggest-input-container": "border-radius: 8px;",
+    ".editor-widget": "border-radius:8px !important;",
+    ".editor-widget>.monaco-sash": "display: none;",
+    ".monaco-hover": "border-radius: 8px !important;",
+    // Thinner and rounder slider
+    ".scrollbar.horizontal": "height:8px !important",
+    ".vertical>.slider": "width:8px !important",
+    ".slider": "border-radius:6px;",
+    // Command pallette
+    ".quick-input-widget": {
+      "box-shadow": " 0 20px 100px rgba(0, 0, 0, 0.4) !important; ",
+      "padding": " 12px 12px 12px 12px; ",
+      "margin-top": " 15%; ",
+      "border-radius": "12px !important; "
+    },
+    ".quick-input-header": "margin-bottom: 8px",
+    // More shadows!
+    ".suggest-widget": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);",
+    ".suggest-details": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);"
+  },
+
+  // Custom tags for the parser to use
+  "yaml.customTags": [
+    "!And",
+    "!If",
+    "!Not",
+    "!Equals",
+    "!Or",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Join sequence",
+    "!Equals[]"
+  ],
+  "cSpell.userWords": [
+    "behaviour",
+    "behaviours",
+    "Bikash",
+    "borderless",
+    "bson",
+    "cferror",
+    "cloudfactory",
+    "Cloudworker",
+    "Datetime",
+    "deduplication",
+    "Dulal",
+    "Fargate",
+    "gcal",
+    "Giri",
+    "graniticio",
+    "Iface",
+    "Infof",
+    "initialise",
+    "Initialised",
+    "launchdarkly",
+    "Mandip",
+    "mapstructure",
+    "moxios",
+    "newrelic",
+    "Nilable",
+    "objx",
+    "openevents",
+    "PANDADOC",
+    "Pendo",
+    "Poudel",
+    "Priyanka",
+    "productionised",
+    "recognised",
+    "RRULE",
+    "Sajal",
+    "stretchr",
+    "tanstack",
+    "testid",
+    "TLMS",
+    "toli",
+    "Tolis",
+    "usecase",
+    "Workstream",
+    "workstreams"
+  ],
+  "cSpell.enabled": true,
+
+  // Touchbar
+  "nasc-touchbar.goToDefinition": true,
+  "nasc-touchbar.addCursorBelow": false,
+  "nasc-touchbar.togglePanel": false,
+  "nasc-touchbar.showCommands": true,
+  "nasc-touchbar.rename": true,
+  "nasc-touchbar.showReferences": true,
+
+  // Golang
+  "go.toolsManagement.autoUpdate": true,
+  "go.coverOnSave": true,
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
+  },
+  "go.coverageOptions": "showUncoveredCodeOnly",
+  "go.coverOnSingleTest": true,
+
+  "todohighlight.include": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/bower_components/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/*.go"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#D5D8DA",
+      "backgroundColor": "#E95378"
+    }
+  ],
+  "todohighlight.defaultStyle": {
+    "backgroundColor": "#E95378",
+    "color": "#D5D8DA"
+    //"isWholeLine": true,
+  },
+
+  // Format on save
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.arrowParens": "avoid",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  // Sonar
+  "sonarlint.connectedMode.connections.sonarcloud": [
+    {
+      "organizationKey": "cloudfactory",
+      "connectionId": "cloudfactory"
+    }
+  ],
+  "sonarlint.pathToNodeExecutable": "/Users/martin/.nvm/versions/node/v18.18.2/bin/node",
+
+  // Error lens
+  "errorLens.excludeBySource": ["cSpell", "eslint(prettier/prettier)"],
+
+  // Misc
+  "diffEditor.maxComputationTime": 0,
+  "window.commandCenter": true,
+  "window.zoomLevel": 2,
+  "editor.stickyScroll.enabled": true,
+  "search.useGlobalIgnoreFiles": true,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.inlineSuggest.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "update.mode": "default",
+  "editor.minimap.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "githubPullRequests.pullBranch": "never",
+  "files.refactoring.autoSave": true,
+  "redhat.telemetry.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  "plantuml.server": "http://0.0.0.0:8080",
+  "plantuml.render": "PlantUMLServer",
+  "plantuml.commandArgs": ["-DPLANTUML_LIMIT_SIZE=8192"],
+  "files.associations": {
+    "homebrew": "ignore"
+  }
+}

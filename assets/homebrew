@@ -1,0 +1,15 @@
+bat
+duf
+exa
+fd
+fzf
+git-delta
+coreutils
+hiddenbar
+jq
+cantino/mcfly/mcfly
+ripgrep
+sanesidebuttons
+starship
+zsh-autosuggestions
+TODO: review if these need the --cask flag

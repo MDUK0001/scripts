@@ -1,0 +1,32 @@
+[pager]
+    diff = delta
+    show = delta
+    log = delta
+    blame = delta
+    grep = delta
+    reflog = delta
+
+[interactive]
+    diffFilter = delta --color-only
+[user]
+	name = Martin Dixon
+	; email = martin.dixon@cloudfactory.com
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+[alias]
+	root = !cd $(git rev-parse --show-toplevel)
+	publish = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[include]
+    path = /Users/martin/code/noncf/delta/themes.gitconfig
+
+[delta]
+    # features = villsau
+	syntax-theme = base16
