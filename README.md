@@ -10,6 +10,10 @@
 
 Once installed, import profile from `assets/iterm/Default.json` and colours from `assets/iterm/Horizon.itermcolors`
 
+### fzf-tab
+
+[fzf-tab]([https://iterm2.com/downloads](https://github.com/Aloxaf/fzf-tab))
+
 ## Running
 
 ```
